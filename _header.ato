@@ -1,0 +1,6 @@
+"""Header base."""
+
+
+component _Header:
+    """Header base."""
+    designator_prefix = "J"

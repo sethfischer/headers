@@ -1,0 +1,13 @@
+"""2.54mm pitch pin headers."""
+
+from "_header.ato" import _Header
+
+
+component PinHeader1x02P2mm54Vertical from _Header:
+    """1x2 2.5mm pitch vertical pin header."""
+    footprint="PinHeader_1x02_P2.54mm_Vertical"
+    lcsc_id = "C5360898"
+    mpn = "C5360898"  # PZ2.54-1*2
+
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
