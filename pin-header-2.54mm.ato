@@ -11,3 +11,14 @@ component PinHeader1x02P2mm54Vertical from _Header:
 
     signal p1 ~ pin 1
     signal p2 ~ pin 2
+
+
+component PinHeader1x03P2mm54Vertical from _Header:
+    """1x3 2.5mm pitch vertical pin header."""
+    footprint="PinHeader_1x03_P2.54mm_Vertical"
+    lcsc_id = "C2894926"
+    mpn = "C2894926"  # PZ254-1-03-Z-8.5
+
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
