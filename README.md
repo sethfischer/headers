@@ -1,6 +1,6 @@
 # Headers
 
-[Atopile](https://atopile.io/) generic headers.
+[Atopile](https://atopile.io/) components for header configurations which are not in the KiCad libraries.
 
 
 ## Install
