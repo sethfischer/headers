@@ -10,7 +10,7 @@ ato install [--link] https://github.com/sethfischer/headers
 ```
 
 
-## Licence
+## License
 
 Footprints and 3D models are obtained from 
 [KiCad Footprints](https://gitlab.com/kicad/libraries/kicad-footprints) and
