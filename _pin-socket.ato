@@ -1,0 +1,6 @@
+"""Pin socket base."""
+
+
+component _PinSocket:
+    """Pin socket base."
+    designator_prefix = "J"

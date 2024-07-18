@@ -1,13 +1,19 @@
-"""2.54mm pitch pin sockets."""
+"""Samtec ESQ sockets."""
 
 from "_pin-socket.ato" import _PinSocket
 
 
-component PinSocket2x20P2mm54VerticalOvalPads from _PinSocket:
-    """2x20 2.5mm pitch vertical pin socket with oval pads."""
-    footprint="PinSocket_2x20_P2.54mm_Vertical_Oval_Pads"
-    lcsc_id = "C2977589"
-    mpn = "C2977589"  # 2.54-2*20
+component PinSocketSamtecEsq_120_23_T_D_OvalPads from _PinSocket:
+    """Samtec ESQ-120-23-T-D elevated vertical pin socket with oval pads.
+
+    # Reference
+
+    * [Samtec ESQ-120-23-T-D Elevated Socket Strip 2.54mm Pitch](https://www.samtec.com/products/esq-120-23-t-d)
+    * [Samtec Elevated Sockets](https://suddendocs.samtec.com/catalog_english/esq_th.pdf)
+    """
+    footprint="PinSocket_Samtec_ESQ-120-23-T-D_Oval_Pads"
+    lcsc_id = "C3320088"
+    mpn = "C3320088"  # Samtec ESQ-120-23-T-D
 
     signal p1 ~ pin 1
     signal p2 ~ pin 2
